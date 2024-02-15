@@ -18,7 +18,7 @@ Realiser un package Yeoman qui permettra d'installer une config minimal **SCALAB
 
 ## Futur
 
-Tester la meme chose mais via [`minipass`](https://www.npmjs.com/package/minipass)
+:warning: Tester la meme chose mais via [`minipass`](https://www.npmjs.com/package/minipass)
 
 ## Documentation
 
@@ -30,32 +30,6 @@ Tester la meme chose mais via [`minipass`](https://www.npmjs.com/package/minipas
 - Rendre la lib yeoman dispo en local
 - Rendre la lib yeoman dispo partout
 - Personne ne doit avoir d'erreur sans savoir ou sa crash donc => **UN MAX DE LOGS**
-
-## Comment ça marche ?
-
-### En local
-
-Apres avoir cloner le repo
-
-```bash
-# Pour permetre a npm de capter les commandes liée a ce package en local
-npm link
-```
-
-Installer un generateur pour démarrer un projet
-
-```bash
-# A la racine du dossier ou vous voulez crée le projet
-# Generer le generator par default app :
-yo anthoinesg-project
-
-# Generer le generator ping :
-yo anthoinesg-project:ping
-```
-
-### En remote
-
-// TODO:
 
 ---
 
