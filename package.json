@@ -2,6 +2,12 @@
   "name": "generator-anthoinesg-project",
   "version": "0.1.0",
   "description": "Its generators allow you to start a project with a solid and healthy foundation",
+  "author": "AnthoineSG <anthoine.saint-germain@gmail.com> (https://anthoine.dev/)",
+  "homepage": "https://github.com/AnthoineSG/generator-anthoinesg-project/blob/main/DOCS.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AnthoineSG/generator-anthoinesg-project"
+  },
   "type": "module",
   "files": [
     "app",

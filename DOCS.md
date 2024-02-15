@@ -1,6 +1,32 @@
 # Docs
 
-## Archi du generator
+## Comment ça marche ?
+
+### En local
+
+Apres avoir cloner le repo
+
+```bash
+# Pour permetre a npm de capter les commandes liée a ce package en local
+npm link
+```
+
+Installer un generateur pour démarrer un projet
+
+```bash
+# A la racine du dossier ou vous voulez crée le projet
+# Generer le generator par default app :
+yo anthoinesg-project
+
+# Generer le generator ping :
+yo anthoinesg-project:ping
+```
+
+### En remote
+
+TODO:
+
+## Archi d'un generator
 
 ```txt
 .
