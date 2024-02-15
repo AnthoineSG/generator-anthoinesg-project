@@ -1,0 +1,16 @@
+{
+  "name": "generator-anthoinesg-project",
+  "version": "0.1.0",
+  "description": "Its generators allow you to start a project with a solid and healthy foundation",
+  "type": "module",
+  "files": [
+    "app",
+    "ping"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^7.1.1"
+  }
+}
